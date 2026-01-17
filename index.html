@@ -1,0 +1,95 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>dussa</title>
+          <script src="https://cdn.tailwindcss.com"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+          <style>
+            img.profile-pic { max-width: 150px; max-height: 150px; object-fit: cover; }
+            img.project-img { max-width: 300px; max-height: 200px; object-fit: cover; }
+            img.certificate-img { max-width: 400px; max-height: 250px; object-fit: contain; }
+            body { background: linear-gradient(to bottom right, #f9fafb, #e5e7eb); }
+            @media (prefers-color-scheme: dark) {
+              body { background: linear-gradient(to bottom right, #1f2937, #374151); }
+            }
+          </style>
+        </head>
+        <body>
+          <div class="min-h-screen bg-[#F8F1E9] text-[#1C2526] font-serif"><style>
+          @keyframes fade-rotate {
+            0% { opacity: 0; transform: rotate(5deg) scale(0.9); }
+            100% { opacity: 1; transform: rotate(0) scale(1); }
+          }
+          .animate-fade-rotate {
+            animation: fade-rotate 1s ease-out;
+          }
+          @keyframes spin-elegant {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+          .hover\:animate-spin-elegant:hover {
+            animation: spin-elegant 2s linear infinite;
+          }
+        </style><header class="bg-[#2A6F45] text-[#D4A017] py-4 sticky top-0 z-50 shadow-[0_4px_10px_rgba(28,37,38,0.2)]"><div class="container mx-auto px-4 flex justify-between items-center"><h1 class="text-3xl font-bold tracking-tight hover:animate-spin-elegant">dussa</h1><button id="menu-toggle" class="sm:hidden text-[#D4A017] focus:outline-none hover:bg-[#D4A017] hover:text-[#2A6F45] p-2 rounded-full" aria-label="Open menu"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button><nav class="hidden sm:flex sm:flex-row sm:space-x-6"><a href="#profile" class="text-lg font-medium hover:text-[#F8F1E9] hover:animate-spin-elegant">About</a><a href="#skills" class="text-lg font-medium hover:text-[#F8F1E9] hover:animate-spin-elegant">Skills</a><a href="#projects" class="text-lg font-medium hover:text-[#F8F1E9] hover:animate-spin-elegant">Projects</a><a href="#certificates" class="text-lg font-medium hover:text-[#F8F1E9] hover:animate-spin-elegant">Achievements &amp; Certifications</a><a href="#resume" class="text-lg font-medium hover:text-[#F8F1E9] hover:animate-spin-elegant">Resume</a><a href="#contact" class="text-lg font-medium hover:text-[#F8F1E9] hover:animate-spin-elegant">Contact</a></nav></div><div id="mobile-menu" class="sm:hidden bg-[#2A6F45] text-[#D4A017] flex-col space-y-2 px-4 py-4 absolute top-full left-0 right-0 z-40 shadow-[0_4px_10px_rgba(28,37,38,0.2)] hidden"><a href="#profile" class="text-lg font-medium hover:text-[#F8F1E9] hover:animate-spin-elegant py-2">About</a><a href="#skills" class="text-lg font-medium hover:text-[#F8F1E9] hover:animate-spin-elegant py-2">Skills</a><a href="#projects" class="text-lg font-medium hover:text-[#F8F1E9] hover:animate-spin-elegant py-2">Projects</a><a href="#certificates" class="text-lg font-medium hover:text-[#F8F1E9] hover:animate-spin-elegant py-2">Achievements &amp; Certifications</a><a href="#resume" class="text-lg font-medium hover:text-[#F8F1E9] hover:animate-spin-elegant py-2">Resume</a><a href="#contact" class="text-lg font-medium hover:text-[#F8F1E9] hover:animate-spin-elegant py-2">Contact</a></div></header><main class="container mx-auto px-4 py-12"><section id="profile" class="mb-16 scroll-mt-24 animate-fade-rotate"><div class="bg-[#F8F1E9] p-8 rounded-lg shadow-[0_4px_20px_rgba(28,37,38,0.1)] border-t-4 border-[#D4A017]"><h2 class="text-4xl font-bold mb-6 text-center text-[#2A6F45]">About Me</h2><div class="flex flex-col md:flex-row items-center gap-8"><div class="w-40 h-40 rounded-full bg-gray-200 flex items-center justify-center text-gray-500">No Image</div><div class="text-center md:text-left"><h3 class="text-3xl font-semibold mb-3 text-[#2A6F45]">dussa</h3><p class="mb-6 text-[#1C2526] leading-relaxed">uday</p><div class="flex flex-col md:flex-row md:space-x-6 space-y-3 md:space-y-0"><p><strong>Email:</strong> <a href="mailto:dussauday469@gmail.com" class="text-[#D4A017] hover:text-[#2A6F45]">dussauday469@gmail.com</a></p><p><strong>WhatsApp:</strong> <a href="https://wa.me/+916304478845" target="_blank" rel="noopener noreferrer" class="text-[#D4A017] hover:text-[#2A6F45]">Contact via WhatsApp</a></p></div></div></div></div></section><section id="skills" class="mb-16 scroll-mt-24 animate-fade-rotate"><div class="bg-[#F8F1E9] p-8 rounded-lg shadow-[0_4px_20px_rgba(28,37,38,0.1)] border-t-4 border-[#D4A017]"><h2 class="text-4xl font-bold mb-6 text-center text-[#2A6F45]">Skills</h2><div class="grid grid-cols-2 md:grid-cols-4 gap-4"><p class="text-center col-span-full text-[#1C2526]">No skills listed.</p></div></div></section><section id="projects" class="mb-16 scroll-mt-24 animate-fade-rotate"><div class="bg-[#F8F1E9] p-8 rounded-lg shadow-[0_4px_20px_rgba(28,37,38,0.1)] border-t-4 border-[#D4A017]"><h2 class="text-4xl font-bold mb-6 text-center text-[#2A6F45]">Projects</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-6"><p class="text-center col-span-full text-[#1C2526]">No projects listed.</p></div></div></section><section id="certificates" class="mb-16 scroll-mt-24 animate-fade-rotate"><div class="bg-[#F8F1E9] p-8 rounded-lg shadow-[0_4px_20px_rgba(28,37,38,0.1)] border-t-4 border-[#D4A017]"><h2 class="text-4xl font-bold mb-6 text-center text-[#2A6F45]">Achievements &amp; Certifications</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-6"><p class="text-center col-span-full text-[#1C2526]">No certificates listed.</p></div></div></section><section id="resume" class="mb-16 scroll-mt-24 animate-fade-rotate"><div class="bg-[#F8F1E9] p-8 rounded-lg text-center shadow-[0_4px_20px_rgba(28,37,38,0.1)] border-t-4 border-[#D4A017]"><h2 class="text-4xl font-bold mb-6 text-[#2A6F45]">Resume</h2><p class="text-[#1C2526]">No resume uploaded.</p></div></section><section id="contact" class="mb-16 scroll-mt-24 animate-fade-rotate"><div class="bg-[#F8F1E9] p-8 rounded-lg text-center shadow-[0_4px_20px_rgba(28,37,38,0.1)] border-t-4 border-[#D4A017]"><h2 class="text-4xl font-bold mb-6 text-[#2A6F45]">Contact Me</h2><div class="flex justify-center space-x-8 mb-6"><a href="mailto:dussauday469@gmail.com" class="text-3xl text-[#D4A017] hover:text-[#2A6F45] hover:animate-spin-elegant"><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg></a></div><p class="text-[#1C2526]">Feel free to reach out for opportunities or collaborations!</p></div></section></main><footer class="bg-[#2A6F45] text-[#D4A017] py-4 shadow-[0_4px_10px_rgba(28,37,38,0.2)]"><div class="container mx-auto px-4 text-center"><p>© <a href="https://tinyurl.com/DevCraftwebsite">Made by DevCraftz  </a> <!-- -->2026<!-- --> <!-- -->dussa<!-- -->. All rights reserved.</p></div></footer></div>
+          
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          // ... (existing client script)
+        });
+      </script>
+      <style>
+        :root {
+          --primary: #6B46C1;
+          --secondary: #DB2777;
+          --bg: #F9FAFB;
+          --text: #1F2937;
+          --font: sans-serif;
+          --rounded: 0.5rem;
+          --section-padding: 4rem;
+          --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        @keyframes float {
+          0% { transform: translateY(0px); }
+          50% { transform: translateY(-10px); }
+          100% { transform: translateY(0px); }
+        }
+        @keyframes pulse {
+          0% { transform: scale(1); }
+          50% { transform: scale(1.05); }
+          100% { transform: scale(1); }
+        }
+        @keyframes bounce {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-10px); }
+        }
+        
+        .custom-animation {
+          animation: float 3s ease-in-out infinite;
+        }
+        
+        .hover-effect {
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-effect:hover {
+          transform: scale(1.03);
+          
+          
+        }
+        
+        .gradient-text {
+          background: linear-gradient(45deg, var(--primary), var(--secondary));
+          background-size: 200% auto;
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          animation: gradient-shift 3s linear infinite;
+        }
+      </style>
+    
+        </body>
+        </html>
+      
